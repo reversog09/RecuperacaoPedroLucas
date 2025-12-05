@@ -1,0 +1,41 @@
+.divona{
+    display: flex;
+    padding-left: 22%;
+    padding-top: 5%;
+}
+
+.foto{
+    height: 110%;
+    border: 1px solid black;
+    border-radius: 12px;
+    display: block;
+    transition: 0.9s;
+}
+
+@media (max-width: 900px) {
+    .foto{
+        height: 90%;
+        transition: 0.9s;
+    }
+    .divona{
+        padding-left: 5%;
+        padding-top: 1%;
+        height: 0.1%;
+    }
+
+    .divinha{
+        padding-left: 1%;
+    }
+}
+
+.fotinha{
+    padding: 1.5% 4%;
+}
+
+.batata{
+    width: 40%;
+}
+
+.divinha{
+    padding-left: 10%;
+}
